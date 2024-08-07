@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <div>
-      <h1 className="bg-primary/70">Hola</h1>
+      <h1 className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, neque!</h1>
     </div>
   );
 }
