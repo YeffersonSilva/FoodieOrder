@@ -1,6 +1,6 @@
 
 
-export const menu: Menu[] = [
+export const menu= [
   {
     label: "Inicio",
     icon: "fi fi-rr-home",
@@ -28,7 +28,7 @@ export const menu: Menu[] = [
   },
 ];
 
-export const categories: Category[] = [
+export const categories= [
   {
     category: "Hamburguesas",
   },
@@ -58,7 +58,7 @@ export const categories: Category[] = [
   },
 ];
 
-export const products: Product[] = [
+export const products = [
   {
     name: "Bacon burger",
     category: "Hamburguesas",
@@ -127,7 +127,7 @@ export const products: Product[] = [
   },
 ];
 
-export const productsCart: ProductCart[] = [
+export const productsCart = [
   {
     name: "Bacon burger",
     image:
