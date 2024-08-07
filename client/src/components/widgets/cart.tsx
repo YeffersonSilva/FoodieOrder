@@ -31,12 +31,12 @@ export const Cart = () => {
           <i className="fi fi-rr-search absolute left-4 top-4 text-primary"></i>
           <input
             className="h-[58px] pl-12 pr-4 rounded-full outline-none w-full"
-            placeholder="Buscar producto"
+            placeholder="Pesquisar produto"
           />
         </div>
         <div className="basis-11/12 overflow-y-auto flex flex-col bg-background-foreground rounded-4xl p-6">
           <section className="basis-1/12">
-            <h1 className="text-2xl font-medium">Detalles de la orden</h1>
+            <h1 className="text-2xl font-medium">Detalhes do pedido</h1>
           </section>
           <ul className="basis-8/12 max-h-full overflow-y-auto">
             {productsCart.map((product) => (
@@ -64,8 +64,7 @@ export const Cart = () => {
               type="button"
               className="py-4 px-4 rounded-full bg-primary w-full font-medium hover:tracking-widest transition-all"
             >
-              Confirmar orden
-            </button>
+Confirmar pedido            </button>
           </section>
         </div>
       </aside>

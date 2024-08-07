@@ -24,7 +24,7 @@ export const CardProduct = ({ product }: CardProductProps) => {
           <div className="flex items-center gap-x-2">
             {discount > 0 && (
               <span className="py-1.5 px-2 bg-primary/10 text-primary rounded-full text-sm font-bold">
-                Descuento {discount}%
+                Desconto {discount}%
               </span>
             )}
             {stock <= 0 && (
