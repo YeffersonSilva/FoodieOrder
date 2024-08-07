@@ -1,6 +1,6 @@
+import { Category, Menu, Product, ProductCart } from "@/types";
 
-
-export const menu= [
+export const menu: Menu[] = [
   {
     label: "Inicio",
     icon: "fi fi-rr-home",
@@ -28,7 +28,7 @@ export const menu= [
   },
 ];
 
-export const categories= [
+export const categories: Category[] = [
   {
     category: "Hamburguesas",
   },
@@ -58,7 +58,7 @@ export const categories= [
   },
 ];
 
-export const products = [
+export const products: Product[] = [
   {
     name: "Bacon burger",
     category: "Hamburguesas",
@@ -127,7 +127,7 @@ export const products = [
   },
 ];
 
-export const productsCart = [
+export const productsCart: ProductCart[] = [
   {
     name: "Bacon burger",
     image:
