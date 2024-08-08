@@ -6,6 +6,9 @@
 Project created with the latest modern technologies in their most recent versions.
 ![2](https://github.com/user-attachments/assets/87d8c3cd-70a9-445e-b79a-9c4d037b32dc)
 
+## Deploy
+- https://foodieorder-production.up.railway.app/
+  
 ## Technologies
 
 1.- TypeScript 5
